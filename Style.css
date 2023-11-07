@@ -3,12 +3,11 @@ tr:first-child {
     color: white;
     border: none;
   }
-  
-  td, th {
+    td, th {
     padding: 10px;
     text-align: start;
   }
-  
+
   table {
     border-collapse: collapse;
   }
@@ -17,20 +16,16 @@ tr:first-child {
     color: white;
     border: none;
   }
-  
   td, th {
     padding: 10px;
     text-align: start;
   }
-  
   table {
     border-collapse: collapse;
   }
-  
   tr {
     transition: all 0.3s ease-in-out;
   }
-  
   tr:nth-child(odd):not(:first-child) {
     background-color: #cccfcd;
     text-decoration: none;
@@ -66,4 +61,7 @@ tr:first-child {
     padding: 8px;
     border-radius: 15px;
     text-decoration: none;
+}
+td:hover{
+  transform: scale(1.1);
 }
